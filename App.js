@@ -48,7 +48,7 @@ export default function App() {
 const getImageURL = (image_id) => {
 
   return "https://www.artic.edu/iiif/2/" + image_id + "/full/843,/0/default.jpg";
-  // 遅い、843を200,400,600できる。  
+  // 843 is image size
 }
 
 /* list screen to browse artworks */
